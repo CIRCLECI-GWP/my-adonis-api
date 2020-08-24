@@ -1,28 +1,24 @@
-# Adonis API application
+[![CircleCI](https://circleci.com/gh/CIRCLECI-GWP/my-adonis-api.svg?style=svg)](https://circleci.com/gh/CIRCLECI-GWP/my-adonis-api)
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+<p align="center"><img src="https://avatars3.githubusercontent.com/u/59034516"></p>
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+## Details
 
-## Setup
+This repo is built following a tutorial published on CircleCI blog under the CircleCI Guest Writer Program.
 
-Use the adonis command to install the blueprint
+- Blog post: [Automating the deploy of an Adonis.js API to Heroku][blog]
+- Author's GitHub profile: [Fikayo Adepoju][author]
 
-```bash
-adonis new yardstick --api-only
-```
+### About CircleCI Guest Writer Program
 
-or manually clone the repo and then run `npm install`.
+Join a team of freelance writers and write about your favorite technology topics for the CircleCI blog. Read more about the program [here][gwp-program].
+
+Reviewers: [Ron Powell][ron], [Stanley Ndagi][stan]
 
 
-### Migrations
+[blog]: https://circleci.com/blog/automating-the-deploy-of-an-adonis-api-to-heroku/
+[author]: https://github.com/coderonfleek
 
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+[gwp-program]: https://circle.ci/3ahQxfu
+[ron]: https://github.com/ronpowelljr
+[stan]: https://github.com/NdagiStanley
