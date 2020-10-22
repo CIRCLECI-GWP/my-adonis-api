@@ -32,7 +32,7 @@ class UserController {
       let return_body = {
         success: true,
         details: create_user,
-        message: "User Successully created"
+        message: "User Successfully created"
       };
       response.send(return_body);
     } catch (error) {
